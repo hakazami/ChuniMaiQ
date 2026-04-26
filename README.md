@@ -1,6 +1,6 @@
-# chunimaiq_app
+# ChuniMaiQ!
 
-A new Flutter project.
+Aplikasi Queue Management System untuk game ritme arkade CHUNITHM dan maimai DX berbasis Dart & Flutter.
 
 ## Getting Started
 
