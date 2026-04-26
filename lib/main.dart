@@ -91,7 +91,7 @@ class ChunimaiQApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: 'ChunimaiQ!',
+      title: 'ChuniMaiQ!',
       debugShowCheckedModeBanner: false,
       theme: ThemeData(
         brightness: Brightness.dark,
@@ -206,14 +206,14 @@ class _HubScreenState extends State<HubScreen> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: SafeArea(
-        child: Padding(
+        child: SingleChildScrollView(
           padding: const EdgeInsets.all(24.0),
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.stretch,
             children: [
               const SizedBox(height: 40),
               const Text(
-                'ChunimaiQ!',
+                'ChuniMaiQ!',
                 textAlign: TextAlign.center,
                 style: TextStyle(fontSize: 42, fontWeight: FontWeight.w800, color: Color(0xFF00f2fe)),
               ),
@@ -248,6 +248,7 @@ class _HubScreenState extends State<HubScreen> {
                 const Color(0xFFffb100),
                 isQueuedChunithm,
               ),
+              const SizedBox(height: 40),
             ],
           ),
         ),
